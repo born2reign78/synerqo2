@@ -13,7 +13,13 @@
     "db:studio": "prisma studio",
     "db:generate": "prisma generate"
   },
-  "keywords": ["erp", "odoo", "modular", "nextjs", "prisma"],
+  "keywords": [
+    "erp",
+    "odoo",
+    "modular",
+    "nextjs",
+    "prisma"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -24,8 +30,11 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^20.0.0",
     "@types/react": "^19.0.0",
+    "autoprefixer": "^10.5.4",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.0.0"
   }
 }

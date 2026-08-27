@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -19,9 +17,10 @@ body {
 }
 
 .menu-item {
-  @apply relative;
+  position: relative;
 }
 
 .menu-submenu {
-  @apply pl-4 border-l border-gray-600;
+  padding-left: 1rem;
+  border-left: 1px solid #4b5563;
 }
